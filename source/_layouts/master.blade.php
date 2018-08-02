@@ -9,6 +9,7 @@
             <div class="flex-1">
                 @yield('content')
             </div>
+            @include('_partials.footer')
         </div>
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
