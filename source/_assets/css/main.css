@@ -22,7 +22,7 @@
   }
 }
 
-@variants hover {
+@variants hover, group-hover {
   .lift {
     transform: translateY(-2px);
     box-shadow: 0 28px 35px -20px rgba(0,0,0,.5),0 5px 15px 0 rgba(0,0,0,.1)!important;
