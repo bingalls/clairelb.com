@@ -12,7 +12,7 @@
       </div>
       <div class="flex-1 flex items-center justify-around">
         <a href="/blog" class="text-white no-underline py-2 px-2 opacity-75 hover:opacity-100 transition">Traveling</a>
-        <a href="/inspiration" class="text-white no-underline py-2 px-2 opacity-75 hover:opacity-100 transition">Inspiration</a>
+        <a href="/web-design" class="text-white no-underline py-2 px-2 opacity-75 hover:opacity-100 transition">Web Design</a>
       </div>
     </div>
     <div class="sm:hidden px-4 text-white">
