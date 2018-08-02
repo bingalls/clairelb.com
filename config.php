@@ -4,6 +4,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'collections' => [
-        'websites'
+        'portfolio',
+        'websites',
     ],
 ];
