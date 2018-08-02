@@ -2,4 +2,24 @@
 
 @tailwind components;
 
+.transition {
+  transition: all 0.2s;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@variants responsive {
+  .sticky {
+    position: sticky;
+  }
+}
+
 @tailwind utilities;

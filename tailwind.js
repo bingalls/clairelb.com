@@ -799,7 +799,7 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
-    opacity: ['responsive', 'hover'],
+    opacity: ['responsive', 'hover', 'focus'],
     outline: ['focus'],
     overflow: ['responsive'],
     padding: ['responsive'],
