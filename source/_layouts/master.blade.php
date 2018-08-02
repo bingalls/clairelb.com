@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
-        @yield('body')
+        <div id="app" class="relative font-sans text-base leading-normal min-h-screen text-grey-darkest flex flex-col">
+            <div class="flex-1">
+                @yield('content')
+            </div>
+        </div>
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
 </html>
