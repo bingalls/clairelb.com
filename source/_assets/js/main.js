@@ -1,6 +1,9 @@
-import Vue from 'vue';
-import ResponsiveNav from './components/ResponsiveNav';
+const navButton = document.querySelector('#nav-button');
+const navLinks = document.querySelector('#mobile-nav-links');
 
-new Vue({
-  components: { ResponsiveNav },
-}).$mount('#app');
+navButton.addEventListener('click', e => {
+  if (navLinks.classList.contains('hidden')) {
+    return navLinks.classList.remove('hidden');
+  }
+  navLinks.classList.add('hidden');
+});
