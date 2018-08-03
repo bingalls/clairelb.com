@@ -661,6 +661,10 @@ table {
   }
 }
 
+.post-content p {
+  margin-bottom: 1rem;
+}
+
 .transition {
   -webkit-transition: all .2s;
   transition: all .2s;

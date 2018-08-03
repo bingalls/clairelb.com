@@ -5,6 +5,7 @@ return [
     'production' => false,
     'collections' => [
         'portfolio',
+        'traveling',
         'websites',
     ],
 ];

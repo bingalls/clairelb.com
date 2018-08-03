@@ -2,6 +2,10 @@
 
 @tailwind components;
 
+.post-content p {
+  margin-bottom: 1rem;
+}
+
 .transition {
   transition: all 0.2s;
 }
