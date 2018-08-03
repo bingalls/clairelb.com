@@ -10,7 +10,7 @@
             </a>
         </div>
         <div class="flex-1 flex items-center justify-around">
-            <a href="/blog" class="text-white no-underline py-2 px-2 opacity-75 hover:opacity-100 transition">Traveling</a>
+            <a href="/traveling" class="text-white no-underline py-2 px-2 opacity-75 hover:opacity-100 transition">Traveling</a>
             <a href="/web-design" class="text-white no-underline py-2 px-2 opacity-75 hover:opacity-100 transition">Web Design</a>
         </div>
     </div>
@@ -26,8 +26,8 @@
         <div id="mobile-nav-links" class="pb-4 hidden">
             <a class="block p-2 text-white no-underline" href="/portfolio">Portfolio</a>
             <a class="block p-2 text-white no-underline" href="/resume">Resume</a>
-            <a class="block p-2 text-white no-underline" href="/blog">Traveling</a>
-            <a class="block p-2 text-white no-underline" href="/inspiration">Inspiration</a>
+            <a class="block p-2 text-white no-underline" href="/traveling">Traveling</a>
+            <a class="block p-2 text-white no-underline" href="/web-design">Web Design</a>
         </div>
     </div>
   </nav>

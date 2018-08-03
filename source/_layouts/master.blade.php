@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
-        <div class="relative font-sans text-base leading-normal min-h-screen text-grey-darkest bg-grey-lightest flex flex-col">
+        <div class="relative font-sans text-base leading-normal min-h-screen text-grey-darkest bg-grey-lightest flex flex-col pt-16 md:pt-0">
             @include('_partials.navigation')
             <div class="flex-1">
                 @yield('content')
