@@ -3,7 +3,7 @@
 @section('content')
 <div>
     <section class="container mx-auto mt-8">
-        <h1 class="text-center mb-2 text-4xl md:text-5xl font-serif font-normal">Portfolio</h1>
+        <h1 class="text-center mb-2 text-4xl md:text-5xl font-serif">Portfolio</h1>
         <p class="md:w-2/3 mx-4 md:mx-auto mb-8 text-center">
             This portfolio displays a wide variety of the best Interior Design work Claire accomplished while at Athens Technical College.
         </p>
