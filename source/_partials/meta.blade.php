@@ -20,7 +20,9 @@
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Libre+Baskerville" rel="stylesheet" type="text/css">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103689326-2"></script>
-<script>
-window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-103689326-2');
-</script>
+@if ($page->production)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103689326-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-103689326-2');
+    </script>
+@endif

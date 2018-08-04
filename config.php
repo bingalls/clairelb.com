@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://clairelb.test',
     'production' => false,
     'collections' => [
         'portfolio',
