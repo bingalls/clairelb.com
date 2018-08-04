@@ -12,3 +12,5 @@ $events->afterBuild(function ($jigsaw) {
         file_put_contents('build_production/_redirects', $redirects);
     }
 });
+
+$events->afterBuild(App\Listeners\GenerateSitemap::class);
