@@ -17,6 +17,9 @@
 <meta name="twitter:site" content="@Lareecb6">
 <meta name="twitter:card" content="summary">
 
+<meta name="msapplication-TileColor" content="#3d3d3d">
+<meta name="theme-color" content="#3d3d3d">
+
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Libre+Baskerville" rel="stylesheet" type="text/css">
 

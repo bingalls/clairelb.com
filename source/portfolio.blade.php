@@ -9,13 +9,13 @@
         </p>
     </section>
     @foreach ($portfolio->sortBy('order') as $project)
-        <div class="container flex flex-col justify-center px-4 sm:px-0 mb-16">
+        <div class="container flex flex-col justify-center px-4 sm:px-0 mb-12">
             <a
-                class="inline-block md:w-2/3 mx-auto group no-underline text-grey-darkest text-center"
+                class="inline-block md:w-2/3 mx-auto group no-underline text-grey-darkest text-center p-4 md:px-0"
                 href="/portfolio/{{ $project->getFilename() }}"
             >
                 <img
-                    class="block w-full shadow-lg rounded mb-4 mx-4 md:mx-0 group-hover:lift transition"
+                    class="block w-full shadow-lg rounded mb-4 group-hover:lift transition"
                     src="/assets/images/portfolio/{{ $project->getFilename() }}/{{ $project->images[0] }}"
                 >
                 <h2 class="inline font-serif font-normal leading-tight text-xl md:text-3xl border-b border-transparent group-hover:border-grey-darkest transition">
