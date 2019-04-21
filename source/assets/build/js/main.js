@@ -105,7 +105,8 @@
 /***/ (function(module, exports) {
 
 var navButton = document.querySelector('#nav-button');
-var navLinks = document.querySelector('#mobile-nav-links');
+var navLinks = document.querySelector('#mobile-nav-links'); // unused param e
+
 navButton.addEventListener('click', function (e) {
   'use strict';
 
